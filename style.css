@@ -1,0 +1,307 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #3D087B;
+}
+.maincontainer{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height:auto;
+    margin-top: 30px;
+
+}
+.subcontainer1{
+    display: flex;
+    flex-direction: column;
+    height:700px;
+   
+}
+.timecard{
+    background-color: white;
+    border-radius: 10px;
+    width:500px;
+    height:300px;
+    margin: 10px;
+    color: #3D087B;
+
+}
+label{
+    font-size: 20px;
+} 
+.card{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    line-height: 60px;
+}
+#wakeup{
+    width: 50%;
+    height:40px;
+    margin-left:60px;
+    color:#3D087B
+}
+.heading{
+    
+    display: flex; 
+
+   
+}
+#m{
+   
+    height:70px;
+    width:500px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #7e5bb5;
+    border-radius: 10px;
+    font-family: 'roboto condensed',sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+   
+}
+.con1{
+    display: flex;
+   
+
+}
+button{
+   
+   height: 55px;
+    width: 250px;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#6E54EC,#cb52f8,#fc5eff );
+    color: white;
+  
+    
+}
+
+button:hover{
+    background-image: linear-gradient(to left,#6E54EC,#cb52f8,#fc5eff );   
+
+}
+
+.content{
+    height:130px;
+    width:220px;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: #7e5bb5;
+    color:#F25CFE;
+    padding-left: 10px;
+    margin-left: 20px;
+   
+}
+
+.subcontainer2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:600px;
+    height:700px;
+
+   
+}
+.box1{
+   
+    margin-top: 50px;
+    display: flex;
+    width: 520px;
+    height:120px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 2;
+   
+}
+.time{
+ color:#3D087B;
+ align-items: center;
+ margin: 10px;
+ display: flex;
+ font-size: 25px;
+ font-size: bold;
+ font-family: 'roboto condensed',sans-serif;
+
+}
+.hours{
+background-image: url(./timeline.svg);
+width:80px;
+height:80px;
+font-size: 20px;
+margin: 10px;
+padding-top: 10px;
+padding-left: 10px;
+font-size: 25px;
+color:#8A11BF;
+line-height: 30px;
+border-radius: 4px;
+
+}
+
+#hour{
+    background-image: url(./AM_svg.svg);
+     width:60px;
+    height:65px;
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 25px;
+    color:white;
+    line-height: 30px;
+    border-radius: 4px;
+    
+}
+
+
+
+
+.colon{
+    font-size: 30px;
+    color:#8A11BF;
+}
+.box2{
+    
+    display: flex;
+    width: 300px;
+    height:90px;
+    background-color: white;
+    border-radius: 10px;
+   filter: blur(2px);
+   opacity: 0.2;
+   position: relative;
+    bottom: 59px;
+    z-index:1;
+
+}
+.box3{
+   
+  
+    display: flex;
+    width: 400px;
+    height:90px;
+    background-color: white;
+    border-radius: 10px;
+   filter: blur(1px); 
+   opacity: 0.6;
+   position: relative;
+   bottom:162px;
+
+   }
+   .box4{
+    height:80px;
+    width:500px;
+    background-color: white;
+     color:#8E53F0;
+     border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'roboto condensed',sans-serif;
+    position: relative;
+    top: -139px;
+   
+
+   }
+h2{
+    font-weight: 90px;
+}
+
+.box5{
+    position: relative;
+    bottom:121px;
+} 
+
+/* phone view */
+@media only  screen and (min-width:360px) and (max-width:500px) {
+    .maincontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+        margin-top: 30px;
+    } 
+    .subcontainer1{
+        display: flex;
+        flex-direction: column;
+        height:700px;
+
+        
+    }
+
+    .timecard{
+        position: relative;
+        left:100px;
+        top: 240px;
+    }
+  .img{
+    position: relative;
+    left:150px;
+  }
+  .heading{
+    position: relative;
+    left:100px;
+    top: 251px;
+  }
+  .con1{
+    position: relative;
+    left:100px;
+  }
+  .subcontainer2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:600px;
+    height:700px;
+
+   
+}
+button{
+    position: relative;
+    top:265px;
+}
+.content{
+    position: relative;
+    top: 258px;
+}
+.box1{
+    position: relative;
+    left:100px;
+    bottom: 600px;
+}
+.box2{
+    position: relative;
+    left:109px;
+    bottom: 650px;
+}
+.box3{
+    position: relative;
+    left:108px;
+    bottom: 760px;
+}
+.box4{
+    position: relative;
+    left:100px;
+    
+    top: -103px;
+
+}
+.box5{
+    position: relative;
+    left:100px;
+    bottom: 78px;
+   
+}
+
+} 
+
+    
+       
