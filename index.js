@@ -22,16 +22,16 @@ function clock(){
         hr = hr-12
         
     }
-    hr= (hr<9) ? "0"+hr: hr
-    mm= (mm<12) ? "0"+mm : mm
-    ss= (ss<12) ? "0"+ss: ss
+    hr= (hr<10) ? "0"+hr: hr
+    mm= (mm<10) ? "0"+mm : mm
+    ss= (ss<10) ? "0"+ss: ss
 
     
     hours.innerHTML = `${hr}`;
     
     minutes.innerHTML = `${mm}`;
 
-  seconds.innerHTML = `${ss}`;
+    seconds.innerHTML = `${ss}`;
     
     if(hh>12){
        ampm.innerHTML = "PM" 

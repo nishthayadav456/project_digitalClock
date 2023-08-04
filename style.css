@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
+   
     background-color: #3D087B;
 }
 .maincontainer{
@@ -17,14 +17,14 @@ body{
 .subcontainer1{
     display: flex;
     flex-direction: column;
-    height:700px;
-   
+    height: 700px;
 }
+
 .timecard{
     background-color: white;
     border-radius: 10px;
-    width:500px;
-    height:300px;
+    width: 500px;
+    height: 300px;
     margin: 10px;
     color: #3D087B;
 
@@ -42,9 +42,9 @@ label{
 }
 #wakeup{
     width: 50%;
-    height:40px;
-    margin-left:60px;
-    color:#3D087B
+    height: 40px;
+    margin-left: 60px;
+    color: #3D087B;
 }
 .heading{
     
@@ -54,8 +54,8 @@ label{
 }
 #m{
    
-    height:70px;
-    width:500px;
+    height: 70px;
+    width: 500px;
     text-align: center;
     color: #FFFFFF;
     background-color: #7e5bb5;
@@ -72,7 +72,7 @@ label{
 }
 button{
    
-   height: 55px;
+    height: 55px;
     width: 250px;
     font-family: 'Manrope', sans-serif;
     color: white;
@@ -81,9 +81,10 @@ button{
     border-radius: 5px;
     background-image: linear-gradient(to right,#6E54EC,#cb52f8,#fc5eff );
     color: white;
+}
   
     
-}
+
 
 button:hover{
     background-image: linear-gradient(to left,#6E54EC,#cb52f8,#fc5eff );   
@@ -91,12 +92,12 @@ button:hover{
 }
 
 .content{
-    height:130px;
-    width:220px;
+    height: 130px;
+    width: 220px;
     border-radius: 10px;
     line-height: 30px;
     background-color: #7e5bb5;
-    color:#F25CFE;
+    color: #F25CFE;
     padding-left: 10px;
     margin-left: 20px;
    
@@ -106,8 +107,8 @@ button:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width:600px;
-    height:700px;
+    width: 600px;
+    height: 700px;
 
    
 }
@@ -116,7 +117,7 @@ button:hover{
     margin-top: 50px;
     display: flex;
     width: 520px;
-    height:120px;
+    height: 120px;
     background-color: white;
     align-items: center;
     border-radius: 10px;
@@ -222,120 +223,260 @@ h2{
 } 
 
 /* phone view */
-@media only  screen and (min-width:360px) and (max-width:500px) {
-    .maincontainer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;  
-        margin-top: 30px;
-    } 
-    .subcontainer1{
-        display: flex;
-        flex-direction: column;
-        height:700px;
-
-        
-    }
-
-    .timecard{
-        position: relative;
-        left:100px;
-        top: 361px;
-    }
-  .img{
-    position: relative;
-    left:150px;
+/* IphoneSE */
+ @media  screen and (min-width:350px) and (max-width:500px) {
     
-  }
-  .heading{
-    position: relative;
-    left:100px;
-    top: 600px;
-  }
-  .con1{
-    position: relative;
-    left:100px;
-    top:450px;
+ 
+.maincontainer{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 100%; */
+    height:auto;
+    margin-top: 30px;
+
+}
+.subcontainer1{
+    display: flex;
+    flex-direction: column;
+    /* height: 700px; */
+}
+
+.timecard{
+    background-color: white;
+    border-radius: 10px;
+    width: 92%;
+    height: 346px;
+    margin: 10px;
+    color: #3D087B;
+    position: absolute;
+    top: 387px;
+   left:1px;
+
+}
+label{
+    font-size: 20px;
+} 
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    line-height: 38px;
+}
+#wakeup{
+    width: 50%;
+    height: 40px;
+    margin-left: 60px;
+    color: #3D087B;
+}
+.heading{
     
-  }
-  .subcontainer2{
+    display: flex; 
+
+   
+}
+.img{
+    position: absolute;
+    left: 10px;
+}
+
+#m{
+   
+    height: 56px;
+    width: 89%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #7e5bb5;
+    border-radius: 10px;
+    font-family: 'roboto condensed',sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+    position: absolute;
+    top: 1035px;
+   left:10px;
+    font-size: 22px;
+   
+}
+.con1{
+    display: flex;
+   
+
+}
+button{
+    height: 55px;
+    width: 34%;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#6E54EC,#cb52f8,#fc5eff );
+    color: white;
+    position: absolute;
+    top: 1140px;
+    left: 12px;
+}
+  
+    
+
+
+button:hover{
+    background-image: linear-gradient(to left,#6E54EC,#cb52f8,#fc5eff );   
+
+}
+
+.content{
+    height: 130px;
+    width: 53%;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color: #7e5bb5;
+    color: #F25CFE;
+    padding-left: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 1138px;
+    left: 126px;
+    font-size: 15px;
+   
+}
+
+.subcontainer2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width:600px;
-    height:700px;
+    width: 600px;
+    height: 700px;
 
    
-}
-#img{
-    position: relative;
-    top: -279px;
-    width: 495px;
-}
-button{
-    position: relative;
-    top:265px;
-}
-.content{
-    position: relative;
-    top: 258px;
 }
 .box1{
-    position: relative;
-    left:100px;
-    bottom: 600px;
-    width: 485px;
+   
+    margin-top: 50px;
+    display: flex;
+    width: 92%;
+    height: 120px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 77px;
+   
+}
+.time{
+ color:#3D087B;
+ align-items: center;
+ margin: 10px;
+ display: flex;
+ font-size: 25px;
+ font-size: bold;
+ font-family: 'roboto condensed',sans-serif;
+
+}
+.hours{
+    background-image: url(./timeline.svg);
+    width: 11%;
+    height: 68px;
+    
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+    font-size: 16px;
+    color: #8A11BF;
+    line-height: 27px;
+    border-radius: 4px;
+}
+
+#hour{
+    background-image: url(./AM_svg.svg);
+    width: 13%;
+    height: 53px;
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 25px;
+    padding-left: 6px;
+    font-size: 25px;
+    color: white;
+    line-height: 30px;
+    border-radius: 4px;
+    position: absolute;
+    left: 277px;
+    
+}
+
+
+
+.colon{
+    font-size: 30px;
+    color:#8A11BF;
 }
 .box2{
-    position: relative;
-    left:109px;
-    bottom: 650px;
+    
+    display: flex;
+    width: 70%;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+    filter: blur(2px);
+    opacity: 0.2;
+    position: absolute;
+    bottom: 59px;
+    top: 191px;
+    z-index: 1;
+
 }
 .box3{
-    position: relative;
-    left:108px;
-    bottom: 760px;
-}
-.box4{
-    position: relative;
-    left:100px;
-    top: -719px;
-    width: 459px;
+   
+  
+    display: flex;
+    width: 83%;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+    filter: blur(1px);
+    opacity: 0.6;
+    position: absolute;
+    top: 176px;
+
+   }
+   .box4{
+    height: 67px;
+    width: 83%;
+    background-color: white;
+    color: #8E53F0;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'roboto condensed',sans-serif;
+    position: absolute;
+    top: 298px;
+    font-size: 11px;
    
 
+   }
+h2{
+    font-weight: 90px;
 }
-h1{
-    position: relative;
-    top:100px;
-}
-.box5{
-    position: relative;
-    left:100px;
-    bottom: 78px;
-   
-}
-button{
-   
-    height: 55px;
-     width: 250px;
-     font-family: 'Manrope', sans-serif;
-     color: white;
-     text-align: center;
-     font-size: 20px;
-     border-radius: 5px;
-     background-image: linear-gradient(to right,#6E54EC,#cb52f8,#fc5eff );
-     color: white;
-   
-     
- }
- 
- button:hover{
-     background-image: linear-gradient(to left,#6E54EC,#cb52f8,#fc5eff );   
- 
- }
- 
 
+
+ #img{
+
+    width: 94%;
+    height: 275px;
+ }
+   
+ .box5{
+    position: absolute;
+    top: 761px;
+    left: 12px;
+    
 } 
+}
+   
+
 
  /* Tablet view    */
  @media only  screen and (min-width:800px) and (max-width:1000px) {
