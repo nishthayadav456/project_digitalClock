@@ -247,7 +247,7 @@ h2{
     background-color: white;
     border-radius: 10px;
     width: 92%;
-    height: 346px;
+    height: 230px;
     margin: 10px;
     color: #3D087B;
     position: absolute;
@@ -266,7 +266,7 @@ label{
     line-height: 38px;
 }
 #wakeup{
-    width: 50%;
+    width: 29%;
     height: 40px;
     margin-left: 60px;
     color: #3D087B;
@@ -294,7 +294,7 @@ label{
     padding-top: 20px;
     padding-left: 10px;
     position: absolute;
-    top: 1035px;
+    top: 920px;
    left:10px;
     font-size: 22px;
    
@@ -315,7 +315,7 @@ button{
     background-image: linear-gradient(to right,#6E54EC,#cb52f8,#fc5eff );
     color: white;
     position: absolute;
-    top: 1140px;
+    top: 1025px;
     left: 12px;
 }
   
@@ -337,7 +337,7 @@ button:hover{
     padding-left: 10px;
     margin-left: 20px;
     position: absolute;
-    top: 1138px;
+    top: 1025px;
     left: 126px;
     font-size: 15px;
    
@@ -470,7 +470,7 @@ h2{
    
  .box5{
     position: absolute;
-    top: 761px;
+    top: 645px;
     left: 12px;
     
 } 
